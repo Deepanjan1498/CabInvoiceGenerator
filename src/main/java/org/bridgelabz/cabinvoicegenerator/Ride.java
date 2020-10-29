@@ -2,11 +2,13 @@ package org.bridgelabz.cabinvoicegenerator;
 
 public class Ride {
 	public double distance;
-	public final int time;
+	public  int time;
+	public final CabRide cabRide;
 
-	public Ride(double distance,int time) {
+	public Ride(double distance,int time,CabRide ride) {
 		this.distance = distance;
 		this.time = time;
+		this.cabRide = ride;
 	}
 
 }
